@@ -1,0 +1,135 @@
+body{
+    background-color: whitesmoke;
+}
+
+#login .cnt{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#login .cnt .content{
+    display: flex;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#login .cnt .content .logo{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #027bf7;
+    padding: 135px 45px;
+}
+
+#login .cnt .content .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#login .cnt .content .logo span{
+    font-weight: 550;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-top: 10px;
+}
+
+#login .cnt .content .logo p{
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+#login .cnt .content .login{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    padding: 115px 263px;
+}
+
+#login .cnt .content .login h4{
+    color: #0a7ef5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login .cnt .content .login .label{
+    font-weight: 550;
+    color: #443f3fd6;
+}
+
+#login .cnt .content .login .input{
+    width: 350px;
+    box-shadow: none;
+}
+
+#login .cnt .content .login span{
+    color: #0399f1;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+#login .cnt .content .login button{
+    width: 350px;
+    background: #0072ff;
+    opacity: 0.9;
+    border: none;
+}
+
+#login .cnt .content .login .signup{
+    text-align: center;
+}
+
+#login .cnt .content .login .signup span:nth-child(1){
+    color: #a19797;
+}
+
+#login .cnt .content .login .signup span:nth-child(3){   
+    padding: 9px;
+    border-radius: 40px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    color: #564747;
+}
+
+#login .cnt .content .login .button{   
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+#login .cnt .content .login .button button{   
+    width: 163px;
+    border: none;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+
+#login .cnt .content .login .button button a{
+    text-decoration: none;
+    color: white;
+}
+
+#login .cnt .content .login .button .btn1{   
+    background: #005bcd;
+}
+
+#login .cnt .content .login .button .btn2{   
+    margin-left: 17px;
+    background: red;
+}
+
+#login .cnt .content .login button:hover{   
+    background: linear-gradient(to top right,blue,white);
+}
+
+#login .cnt .content .login .button .btn1:hover{   
+    background: linear-gradient(to top right,blue,white);
+}
+
+#login .cnt .content .login .button .btn2:hover{   
+    background: linear-gradient(to top right,blue,white);
+}
+
+
+
